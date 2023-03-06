@@ -6,9 +6,9 @@ spring:
     name: catalog
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/db-wallet?createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:3306/db-movies?createDatabaseIfNotExist=true
     username: juan
-    password:
+    password: 1234
   jpa:
     database-platform: org.hibernate.dialect.MySQL57Dialect
     hibernate.ddl-auto: update
