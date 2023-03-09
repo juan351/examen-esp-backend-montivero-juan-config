@@ -5,13 +5,14 @@ spring:
   application:
     name: api-movie
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/db-movies?createDatabaseIfNotExist=true
     username: juan
     password: 1234
   jpa:
     database-platform: org.hibernate.dialect.MySQL57Dialect
     hibernate.ddl-auto: update
+    generate-ddl: true
     show-sql: true
     properties:
       hibernate:
